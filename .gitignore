@@ -1,0 +1,12 @@
+# Ignore the hidden VS Code settings folder
+.vscode/
+
+# Ignore compiled binary files with no extension
+# (This is tricky in Git, but we can ignore everything and allow extensions)
+*
+!*/
+!*.cpp
+!*.c
+!*.h
+!*.md
+!.gitignore
